@@ -1,0 +1,30 @@
+baseURL = "https://blog.arindamsg.xyz/"
+languageCode = "en-us"
+title = "Arindam Sengupta's Personal Blog"
+theme = "kiss-em"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+[params.microblog]
+number = 2
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.social]
+about = "about"
+twitter = "@arindamsg06032709"
+github = "arinsg"
+facebook = "arinsg"
+linkedin = "arindamsg"
+
+[params.social.config]
+platforms = ["about", "facebook", "github", "twitter", "linkedin"]
+
+[params.info]
+poweredby = true 
+related = true 
+
+[taxonomies]
+tag ="tags"
